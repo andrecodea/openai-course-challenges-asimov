@@ -4,6 +4,8 @@ Este repositório contém os desafios propostos pelo professor Adriano Soares du
 ## Desafio 1: Chatbot
 Implementação de um chatbot em Python usando a API GPT da OpenAI (`gpt-3.5-turbo`) para gerar respostas em tempo real. Eu implementei um chatbot de CLI simples que pode receber prompts e gerar texto.
 
+## Desafio 2: Chatbot Financeiro
+Implementação de um chatbot financeiro em Python usando a API GPT da OpenAi (`gpt-3.5-turbo`), a API do Yahoo Finance e function calling para gerar respostas em tempo real. Eu implementei um chatbot de CLI que pode receber prompts e respondê-los utilizando function calling para perguntas sobre o mercado financeiro.
 
 ## Uso local
 1. Clone o repositório.
