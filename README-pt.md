@@ -1,11 +1,15 @@
-# Curso de API da OpenAI da Asimov Academy
-Este repositório contém os desafios propostos pelo professor Adriano Soares durante o curso Explorando a API da OpenAI na Asimov Academy.
+# Curso de API da OpenAI
 
-## Desafio 1: Chatbot
-Implementação de um chatbot em Python usando a API GPT da OpenAI (`gpt-3.5-turbo`) para gerar respostas em tempo real. Eu implementei um chatbot de CLI simples que pode receber prompts e gerar texto.
+Este repositório contém exemplos e miniprojetos utilizando a API da OpenAI.
 
-## Desafio 2: Chatbot Financeiro
-Implementação de um chatbot financeiro em Python usando a API GPT da OpenAi (`gpt-3.5-turbo`), a API do Yahoo Finance e function calling para gerar respostas em tempo real. Eu implementei um chatbot de CLI que pode receber prompts e respondê-los utilizando function calling para perguntas sobre o mercado financeiro.
+## 1. Chatbot com Reconhecimento de Voz CLI
+ Implementação de um chatbot de voz que utiliza a API da OpenAI para gerar respostas a partir de prompts em áudio (tts-1, whisper-1 e gpt-3.5-turbo). Ele é capaz de: capturar áudio do usuário via microfone, transcrever o áudio para texto via Whisper, gerar respostas com GPT 3.5 turbo, converter a resposta para áuvio via TTS e reproduzir a resposta em áudio para o usuário.
+
+## 2. Chatbot CLI
+Implementação de um chatbot em Python usando a API GPT da OpenAI (gpt-3.5-turbo) para gerar respostas em tempo real. Eu implementei um chatbot de CLI simples que pode receber prompts e gerar texto.
+
+3. Chatbot Financeiro CLI:
+ Implementação de um chatbot financeiro em Python usando a API GPT da OpenAi (gpt-3.5-turbo), a API do Yahoo Finance e function calling para gerar respostas em tempo real. Eu implementei um chatbot de CLI que pode receber prompts e respondê-los utilizando function calling para perguntas sobre o mercado financeiro.
 
 ## Uso local
 1. Clone o repositório.
